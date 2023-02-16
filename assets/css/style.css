@@ -1,0 +1,103 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+nav {
+  display: flex;
+}
+
+nav p {
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+}
+
+
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+}
+
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Image Placeholders */
+.sample-img {
+  background-color: #fff;
+  padding: 5%;
+  height: auto;
+  max-width: 75%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.sample-img:hover {
+  transform: scale(1.2);
+ 
+}
+
+
+/* creates a smooth scroll animation */
+
+html {
+  scroll-behavior: smooth;
+}
